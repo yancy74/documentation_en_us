@@ -66,4 +66,4 @@ To build and preview the site, run:
 $ ./build.sh && ./preview.sh
 ```
 
-The result will be available at http://localhost:8080
+The result will be available at http://localhost:8080.
