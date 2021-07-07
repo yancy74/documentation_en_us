@@ -2,7 +2,7 @@
 = Starting a Kickstart installation automatically using PXE
 
 
-AMD64, Intel 64, and 64-bit ARM systems and IBM Power Systems servers have the ability to boot using a PXE server. When you configure the PXE server, you can add the boot option into the boot loader configuration file, which in turn lets you start the installation automatically. Using this approach, it is possible to automate the installation completely, including the boot process.
+AMD64, Intel 64, and 64-bit ARM systems have the ability to boot using a PXE server. When you configure the PXE server, you can add the boot option into the boot loader configuration file, which in turn lets you start the installation automatically. Using this approach, it is possible to automate the installation completely, including the boot process.
 
 This procedure is intended as a general reference; detailed steps differ based on your system's architecture, and not all options are available on all architectures.
 

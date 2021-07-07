@@ -6,8 +6,7 @@ If several operating systems are installed, it is important that you verify that
 
 [NOTE]
 ====
-* For AMD64, Intel 64, and 64-bit ARM, at least two partitions (`/` and `swap`) must be dedicated to {productname}.
-* For IBM Power Systems servers, at least three partitions (`/`, `swap`, and a `PReP` boot partition) must be dedicated to {productname}.
+For AMD64, Intel 64, and 64-bit ARM, at least two partitions (`/` and `swap`) must be dedicated to {productname}.
 ====
 You must have a minimum of 10 GiB of available disk space. See xref:standard-install:assembly_partitioning-reference.adoc#recommended-partitioning-scheme_partitioning-reference[Recommended partitioning scheme] for more information.
 

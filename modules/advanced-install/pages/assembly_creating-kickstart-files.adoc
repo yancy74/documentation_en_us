@@ -9,7 +9,6 @@ include::partial$local-attributes.adoc[]
 
 You can create a Kickstart file using the following methods:
 
-* Use the online Kickstart configuration tool.
 
 * Copy the Kickstart file created as a result of a manual installation.
 
@@ -22,7 +21,6 @@ Note that some highly specific installation options can be configured only by ma
 
 include::ROOT:partial$installer/proc_creating-a-kickstart-file-by-performing-a-manual-installation.adoc[leveloffset=+1]
 
-include::ROOT:partial$installer/proc_creating-a-kickstart-file-with-the-kickstart-configuration-tool.adoc[leveloffset=+1]
 
 
 :context: {parent-context-of-creating-kickstart-files}

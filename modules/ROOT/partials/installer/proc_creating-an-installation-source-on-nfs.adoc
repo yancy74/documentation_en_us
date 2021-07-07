@@ -32,11 +32,11 @@ Follow the steps in this procedure to place the installation source on an NFS se
 
 .  Replace _/exported_directory/_ with the full path to the directory with the ISO image. Replace __clients__ with the host name or IP address of the target system, the subnetwork that all target systems can use to access the ISO image, or the asterisk sign (`*`) if you want to allow any system with network access to the NFS server to use the ISO image. See the `exports(5)` man page for detailed information about the format of this field.
 +
-A basic configuration that makes the `/centos8-install/` directory available as read-only to all clients is:
+A basic configuration that makes the `/circleos8-install/` directory available as read-only to all clients is:
 +
 [subs="quotes, macros, attributes"]
 ----
-/centos8-install *
+/circleos8-install *
 ----
 
 . Save the [filename]`/etc/exports` file and exit the text editor.
@@ -58,5 +58,5 @@ The ISO image is now accessible over NFS and ready to be used as an installation
 
 [NOTE]
 ====
-When configuring the installation source, use `nfs:` as the protocol, the server host name or IP address, the colon sign `(:)`, and the directory holding the ISO image. For example, if the server host name is `myserver.example.com` and you have saved the ISO image in `/centos8-install/`, specify `nfs:myserver.example.com:/centos8-install/` as the installation source.
+When configuring the installation source, use `nfs:` as the protocol, the server host name or IP address, the colon sign `(:)`, and the directory holding the ISO image. For example, if the server host name is `myserver.example.com` and you have saved the ISO image in `/circleos8-install/`, specify `nfs:myserver.example.com:/circleos8-install/` as the installation source.
 ====

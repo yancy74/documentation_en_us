@@ -35,7 +35,7 @@ This step can be necessary in network environments featuring various firewall/NA
 +
 [WARNING]
 ====
-If you configured SSL/TLS security in your [filename]`vsftpd.conf` file, ensure that you enable only the TLSv1 protocol, and disable SSLv2 and SSLv3. This is due to the POODLE SSL vulnerability (CVE-2014-3566). See https://access.redhat.com/solutions/1234773 for details.
+If you configured SSL/TLS security in your [filename]`vsftpd.conf` file, ensure that you enable only the TLSv1 protocol, and disable SSLv2 and SSLv3. This is due to the POODLE SSL vulnerability (CVE-2014-3566).
 ====
 
 . Configure the server firewall.
@@ -64,8 +64,8 @@ Replace __min_port__-__max_port__ with the port numbers you entered into the [fi
 +
 [subs="quotes"]
 ----
-# mkdir /mnt/centos8-install
-# mount -o loop,ro -t iso9660 __/image-directory/image.iso__ /mnt/centos8-install
+# mkdir /mnt/circleos8-install
+# mount -o loop,ro -t iso9660 __/image-directory/image.iso__ /mnt/circleos8-install
 ----
 +
 Replace __/image-directory/image.iso__ with the path to the DVD1 ISO image.
@@ -74,18 +74,18 @@ Replace __/image-directory/image.iso__ with the path to the DVD1 ISO image.
 +
 [subs="quotes"]
 ----
-# mkdir /var/ftp/centos8-install
-# cp -r /mnt/centos8-install/ /var/ftp/
+# mkdir /var/ftp/circleos8-install
+# cp -r /mnt/circleos8-install/ /var/ftp/
 ----
 +
-This command creates the [literal]`/var/ftp/centos8-install/` directory with the content of the image. Note that some copying methods can skip the `.treeinfo` file which is required for a valid installation source. Running the `cp` command for whole directories as shown in this procedure will copy `.treeinfo` correctly.
+This command creates the [literal]`/var/ftp/circleos8-install/` directory with the content of the image. Note that some copying methods can skip the `.treeinfo` file which is required for a valid installation source. Running the `cp` command for whole directories as shown in this procedure will copy `.treeinfo` correctly.
 
 . Make sure that the correct SELinux context and access mode is set on the copied content:
 +
 ----
-# restorecon -r /var/ftp/centos8-install
-# find /var/ftp/centos8-install -type f -exec chmod 444 {} \;
-# find /var/ftp/centos8-install -type d -exec chmod 755 {} \;
+# restorecon -r /var/ftp/circleos8-install
+# find /var/ftp/circleos8-install -type f -exec chmod 444 {} \;
+# find /var/ftp/circleos8-install -type d -exec chmod 755 {} \;
 ----
 
 . Start the `vsftpd` service:
@@ -104,5 +104,5 @@ The installation tree is now accessible and ready to be used as the installation
 +
 [NOTE]
 ====
-When configuring the installation source, use `ftp://` as the protocol, the server host name or IP address, and the directory in which you have stored the files from the ISO image, relative to the FTP server root. For example, if the server host name is `myserver.example.com` and you have copied the files from the image to `/var/ftp/centos8-install/`, specify `ftp://myserver.example.com/centos8-install/` as the installation source.
+When configuring the installation source, use `ftp://` as the protocol, the server host name or IP address, and the directory in which you have stored the files from the ISO image, relative to the FTP server root. For example, if the server host name is `myserver.example.com` and you have copied the files from the image to `/var/ftp/circleos8-install/`, specify `ftp://myserver.example.com/circleos8-install/` as the installation source.
 ====

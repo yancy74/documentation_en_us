@@ -18,8 +18,3 @@ Typically, the image file is located on a web server, for example, http://server
 
 . Press *Enter* to execute the boot process. The drivers available at the specified location are automatically loaded and the  installation process starts.
 
-[discrete]
-== Additional resources
-
-* For more information about the `inst.dd` boot option, see the upstream link:https://github.com/rhinstaller/anaconda/blob/rhel-8.0/docs/boot-options.rst/#instdd[inst.dd boot option] content.
-* For more information about all boot options, see the upstream link:https://github.com/rhinstaller/anaconda/blob/rhel-8.0/docs/boot-options.rst/[Boot Options] content.

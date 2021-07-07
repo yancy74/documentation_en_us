@@ -2,7 +2,7 @@
 
 = Downloading the installation ISO image
 
-Before you start installing {rel8}, you must download an installation ISO image. Images are available from the {ProductName} website at link:++https://www.centos.org/download/++[]. The following basic types of media are available:
+Before you start installing {rel8}, you must download an installation ISO image. Images are available from the {ProductName} website. The following basic types of media are available:
 
 DVD1 ISO::
 This image contains the installer as well as a set of all packages that can be installed during an interactive installation. Also sometimes referred to as the "Binary DVD" or "Binary ISO image". This is the recommended download for most users.

@@ -43,7 +43,7 @@ This procedure uses *TigerVNC* as the VNC viewer. Specific instructions for othe
 
 * You have configured the target system to use the boot options for a VNC Connect installation. For more information, see *add link to updated boot options when they are ready*.
 
-* You have verified that the remote system with the VNC viewer is configured to accept an incoming connection on the required port. Verification is dependent on your network and system configuration. For more information, see the link:https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/security_hardening/index[Security hardening in RHEL 8] and https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/securing_networks/index/[Securing networks in RHEL 8] documents.
+* You have verified that the remote system with the VNC viewer is configured to accept an incoming connection on the required port. Verification is dependent on your network and system configuration. 
 
 
 [discrete]

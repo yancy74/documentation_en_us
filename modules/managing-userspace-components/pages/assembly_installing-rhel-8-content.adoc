@@ -33,14 +33,8 @@ include::ROOT:partial$appstream/ref_commands-for-installing-rhel-8-content.adoc[
 [id="additional-resources_{context}"]
 == Additional resources
 
-.Online resources
+For details of various [command]`yum` tool commands, see the `yum(8)` manual page:
 
-* For more information about the traditional software installation methods, see the chapter link:https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_basic_system_settings/installing-software-with-yum_configuring-basic-system-settings[Installing software with yum] in the _Configuring basic system settings in RHEL 8_ document.
-
-.Installed resources
-
-* For details of various [command]`yum` tool commands, see the `yum(8)` manual page:
-+
 ----
 $ man yum
 ----

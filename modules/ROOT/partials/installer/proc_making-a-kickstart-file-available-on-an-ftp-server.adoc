@@ -32,7 +32,7 @@ This step can be necessary in network environments featuring various firewall/NA
 +
 [WARNING]
 ====
-If you configured SSL/TLS security in your [filename]`vsftpd.conf` file, ensure that you enable only the TLSv1 protocol, and disable SSLv2 and SSLv3. This is due to the POODLE SSL vulnerability (CVE-2014-3566). See https://access.redhat.com/solutions/1234773 for details.
+If you configured SSL/TLS security in your [filename]`vsftpd.conf` file, ensure that you enable only the TLSv1 protocol, and disable SSLv2 and SSLv3. This is due to the POODLE SSL vulnerability (CVE-2014-3566). 
 ====
 
 . Configure the server firewall.

@@ -32,7 +32,7 @@ IMPORTANT: If you use an HTTPS server with a self-signed certificate, you must b
 +
 The Kickstart file is now accessible and ready to be used for installation.
 +
-NOTE: When specifying the location of the Kickstart file, use `http://` or `https://` as the protocol, the server’s host name or IP address, and the path of the Kickstart file, relative to the HTTP server root. For example, if you are using HTTP, the server’s host name is `myserver.example.com`, and you have copied the Kickstart file as [filename]`/var/www/html/centos8-install/my-ks.cfg`, specify `http://myserver.example.com/centos8-install/my-ks.cfg` as the file location.
+NOTE: When specifying the location of the Kickstart file, use `http://` or `https://` as the protocol, the server’s host name or IP address, and the path of the Kickstart file, relative to the HTTP server root. For example, if you are using HTTP, the server’s host name is `myserver.example.com`, and you have copied the Kickstart file as [filename]`/var/www/html/circleos8-install/my-ks.cfg`, specify `http://myserver.example.com/circleos8-install/my-ks.cfg` as the file location.
 
 
 .Additional resources

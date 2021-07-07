@@ -73,8 +73,6 @@ See xref:standard-install:assembly_partitioning-reference.adoc#recommended-parti
 * If you are unsure about how to configure partitions, accept the automatic default partition layout provided by the installation program.
 ====
 
-`PReP` boot partition - recommended size of 4 to 8 MiB::
-When installing {productname} on IBM Power System servers, the first partition of the hard drive should include a `PReP` boot partition. This contains the GRUB2 boot loader, which allows other IBM Power Systems servers to boot {productname}.
 
 // ...as described in installation-destination_graphical-installation.
 // To learn about a more flexible method for storage management, see appe-lvm-overview.

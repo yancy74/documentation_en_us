@@ -1,14 +1,14 @@
 :Year: 2019
 
 // Project
-:RH: CentOS Project
+:RH: Circle Linux Project
 :OrgName: {RH}
 
-// The product (CentOS)
-:ProductName: CentOS
+// The product (Circle Linux)
+:ProductName: Circle Linux
 :ProductShortName: {ProductName}
-// This is the version displayed under "CentOS"
-:ProductNumber: 8.0.1905
+// This is the version displayed under "Circle Linux"
+:ProductNumber: 8.4
 :rel8: {ProductName}{nbsp}8
 :rel7: {ProductName}{nbsp}7
 //:ProductRelease: Beta

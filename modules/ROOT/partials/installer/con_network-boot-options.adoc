@@ -79,8 +79,3 @@ The `inst.dhcpclass=` option specifies the DHCP vendor class identifier. The `dh
 inst.waitfornet=::
 Using the `inst.waitfornet=SECONDS` boot option causes the installation system to wait for network connectivity before installation. The value given in the `SECONDS` argument specifies the maximum amount of time to wait for network connectivity before timing out and continuing the installation process even if network connectivity is not present.
 
-
-[discrete]
-== Additional resources
-
-* For more information about networking, see the link:https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/index/[_Configuring and managing networking in RHEL 8_] document.

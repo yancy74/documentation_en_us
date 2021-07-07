@@ -10,7 +10,6 @@
 
 *** xref:assembly_creating-kickstart-files.adoc[Creating Kickstart files]
 **** xref:assembly_creating-kickstart-files.adoc#creating-a-kickstart-file-by-performing-a-manual-installation_creating-kickstart-files[Creating a Kickstart file by performing a manual installation]
-**** xref:assembly_creating-kickstart-files.adoc#creating-a-kickstart-file-with-the-kickstart-configuration-tool_creating-kickstart-files[Creating a Kickstart file with the Kickstart configuration tool]
 
 *** xref:assembly_making-kickstart-files-available-to-the-installation-program.adoc[Making Kickstart files available to the installation program]
 **** xref:assembly_making-kickstart-files-available-to-the-installation-program.adoc#ports-for-network-based-installation_making-kickstart-files-available-to-the-installation-program[Ports for network-based installation]
@@ -59,8 +58,8 @@
 **** xref:assembly_preparing-for-a-network-install.adoc#network-install-overview_preparing-for-a-network-install[Network install overview]
 **** xref:assembly_preparing-for-a-network-install.adoc#configuring-a-tftp-server-for-bios-based-clients_preparing-for-a-network-install[Configuring a TFTP server for BIOS-based clients]
 **** xref:assembly_preparing-for-a-network-install.adoc#configuring-a-tftp-server-for-uefi-based-clients_preparing-for-a-network-install[Configuring a TFTP server for UEFI-based clients]
-**** xref:assembly_preparing-for-a-network-install.adoc#configuring-a-network-server-for-ibm-power_preparing-for-a-network-install[Configuring a network server for IBM Power systems]
 
+////
 ** References
 
 *** xref:assembly_kickstart-and-advanced-boot-options.adoc[Boot options]
@@ -188,3 +187,4 @@
 **** xref:assembly_partitioning-reference.adoc#supported-raid-types_partitioning-reference[Supported RAID types]
 **** xref:assembly_partitioning-reference.adoc#recommended-partitioning-scheme_partitioning-reference[Recommended partitioning scheme]
 **** xref:assembly_partitioning-reference.adoc#advice-on-partitions_partitioning-reference[Advice on partitions]
+////

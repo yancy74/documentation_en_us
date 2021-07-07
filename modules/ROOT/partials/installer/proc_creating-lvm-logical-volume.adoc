@@ -3,7 +3,6 @@
 
 Logical Volume Management (LVM) presents a simple logical view of underlying physical storage space, such as hard drives or LUNs. Partitions on physical storage are represented as physical volumes that you can group together into volume groups. You can divide each volume group into multiple logical volumes, each of which is analogous to a standard disk partition. Therefore, LVM logical volumes function as partitions that can span multiple physical disks.
 
-For more information, see the link:++https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_logical_volumes/index++[Configuring and managing logical volumes in RHEL 8] document.
 
 [NOTE]
 ====
@@ -29,7 +28,3 @@ You cannot specify the size of the volume group's physical extents in the config
 
 ====
 
-
-.Additional resources
-
-* For more information about LVM, see the link:++https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_logical_volumes/index++[Configuring and managing logical volumes in RHEL 8] document.
