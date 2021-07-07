@@ -1,4 +1,4 @@
-# CentOS 8 Documentation
+# Circle Linux Documentation
 
 This repository contains sources that comprise the Circle Linux documentation.
 Please report Issues and submit Pull Requests for **Content Fixes** here.
